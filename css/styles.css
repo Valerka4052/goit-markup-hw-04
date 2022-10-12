@@ -411,9 +411,6 @@ fill: var(--accent-color);
 /* main 2 Портфоліо====================================================================== */
 
 /* кнопки навигації============================= */
-.our-projects{
-    background-color: #F5F5F5;
-}
 .button-navigation {
     display: flex;
     justify-content: center;
