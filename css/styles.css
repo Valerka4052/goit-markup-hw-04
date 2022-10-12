@@ -143,16 +143,16 @@ border: 1px solid #EEEEEE;
 .hero {
     background-color: #2F303A;
     background-image: linear-gradient(to right, hsl(235deg 11% 24% / 40%), hsl(235deg 11% 24% / 40%)), url(../images/team-at-work.jpg);
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     max-width: 1600px;
-    height: 600px;
+
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 172px;
+    padding-bottom: 200px;
    }
 .hero .title {
     margin-top: 0;
@@ -188,8 +188,8 @@ border: 1px solid #EEEEEE;
     text-align: center;
     letter-spacing: 0.06em;
 
-    background-color: white;
-    color: var(--title-text-color);
+    background-color:#188ce8;
+    color: white;
 }
 .hero .order:hover {
     cursor: pointer;
@@ -437,7 +437,7 @@ fill: var(--accent-color);
 
     color: var(--title-text-color) ;
     background-color: transparent;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   
 } 
 .navigation{
     margin-right: 8px;
@@ -571,9 +571,9 @@ margin-left: 70px;
 text-transform: uppercase;
 font-size: 16px;
 font-weight: 700;
-font-style: Bold;
 line-height: 1.17;
-Letter-spacing: 3%;
+Letter-spacing: 0.03em;
+
 color: #FFFFFF
 }
 .footer-icon-list{
